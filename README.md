@@ -11,6 +11,12 @@ conda activate Editshield
 bash scripts/download_checkpoints.sh
 ```
 
+### Create a perturbation using the EditShield with Expectation Over Transformation (EOT):
+```
+python EOT_Center.py
+```
+
+
 ## Reference
 
 ```bibtex
