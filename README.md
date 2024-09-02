@@ -1,5 +1,7 @@
 # EditShield
-Please see our paper EditShield: Protecting Unauthorized Image Editing by Instruction-guided Diffusion Models for more details.
+EditShield: Protecting Unauthorized Image Editing by Instruction-guided Diffusion Models.
+
+## TL;DR: quickstart 
 
 ### Set up a conda environment, and download a pretrained model:
 ```
