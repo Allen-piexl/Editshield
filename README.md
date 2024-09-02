@@ -4,12 +4,16 @@ EditShield: Protecting Unauthorized Image Editing by Instruction-guided Diffusio
 
 ## TL;DR: quickstart 
 
+## Step 1.
+
 ### Set up a conda environment, and download a pre-trained model:
 ```
 conda env create -f environment.yaml
 conda activate Editshield
 bash scripts/download_checkpoints.sh
 ```
+
+## Step 2.
 
 ### Create a perturbation using the EditShield with Expectation Over Transformation (EOT):
 ```
