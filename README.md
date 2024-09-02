@@ -4,22 +4,27 @@ EditShield: Protecting Unauthorized Image Editing by Instruction-guided Diffusio
 
 ## TL;DR: quickstart 
 
-## Step 1.
-
-### Set up a conda environment, and download a pre-trained model:
+### Step 1. Set up a conda environment, and download a pre-trained model:
 ```
 conda env create -f environment.yaml
 conda activate Editshield
 bash scripts/download_checkpoints.sh
 ```
 
-## Step 2.
-
-### Create a perturbation using the EditShield with Expectation Over Transformation (EOT):
+### Step 2. Create a perturbation using the EditShield with Expectation Over Transformation (EOT):
 ```
 python EOT_Center.py
 ```
 
+### Step 3. Generate descriptions of the caption using LLaVA:
+```
+python Cap_EOT_C.py
+```
+
+### Step 4. Calculate the Similarity:
+```
+python --number 5 --method EOT-C Caption_Metrics.py
+```
 
 ## Reference
 
